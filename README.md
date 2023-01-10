@@ -1,6 +1,9 @@
 # GPT3_APP
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# FRAMEWORKS
+
+1. ReactJs
+
 
 ## Available Scripts
 
