@@ -5,7 +5,7 @@ import ai from '../../assets/ai.png'
 
 function Header() {
   return (
-    <div className="gpt3__header_padding" id="home">
+    <div className="gpt3__header section__padding" id="home">
       <div className="gpt3__header-content">
         <div className="gradient__text">
           <h1> Let's Build Something amazing with GPT-3 Open AI</h1>
