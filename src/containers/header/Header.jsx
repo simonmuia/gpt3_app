@@ -1,7 +1,7 @@
 import React from "react";
 import "./header.css";
 import people from "../../assets/people.png";
-import ai from '../../assets/ai.png'
+import ai from "../../assets/ai.png";
 
 function Header() {
   return (
@@ -24,8 +24,8 @@ function Header() {
           <img src={people} alt="people" />
           <p>1,600 people requested access a visit in last 24 hours</p>
         </div>
-        <div className='gpt3__header-image'>
-          <img src={ai} alt='ai' />
+        <div className="gpt3__header-image">
+          <img src={ai} alt="ai" />
         </div>
       </div>
     </div>

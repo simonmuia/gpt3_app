@@ -1,10 +1,13 @@
 .gpt3__header {
   display: flex;
+  flex-direction:row;
+  padding: 0 6rem;
 }
 
+
 .gpt3__header-content {
-  display: flex;
   flex: 1;
+  display: flex;  
   justify-content: center;
   align-items: flex-start;
   flex-direction: column;
@@ -13,7 +16,6 @@
 
 .gpt3__header-content h1 {
   font-family: var(--font-family);
-  font-style: normal;
   font-weight: 800;
   font-size: 62px;
   line-height: 75px;
@@ -109,6 +111,7 @@
 @media screen and (max-width: 1050px) {
   .gpt3__header {
     flex-direction: column;
+    padding: 0 2rem;
   }
 
   .gpt3__header-content {
