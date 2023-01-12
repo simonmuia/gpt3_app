@@ -1,10 +1,16 @@
-import React from 'react';
-import './blog.css';
+import React from "react";
+import "./blog.css";
 
 function Blog() {
   return (
-    <div>Blog</div>
-  )
+    <div className="gpt3__blog section__padding" id="blog">
+      <div className="gpt3__blog-heading">
+        <h1 className="gradient__text">
+          A lot is happening, We are blogging about it.
+        </h1>
+      </div>
+    </div>
+  );
 }
 
-export default Blog
+export default Blog;
